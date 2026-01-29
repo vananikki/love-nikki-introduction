@@ -1,0 +1,49 @@
+html {
+    background: url(VANA_files/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(0, 0, 0, 0.7);
+}
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+#zero {
+    font-size: 0;
+}
+
+h1 {
+    margin: 100px auto 20px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+div.gallery {
+    margin: 50px 100px 50px 200px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border: 5px solid white;
+    border-radius: 20px;
+    float: left;
+    width: 300px;
+}
+
+    div.gallery:hover {
+        border-radius: 19px;
+        border: 5px solid rgb(0, 0, 0, 0.5);
+    }
+
+    div.gallery img {
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+        height: 500px;
+    }
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}

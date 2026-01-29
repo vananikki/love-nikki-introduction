@@ -1,0 +1,36 @@
+html {
+    background: url(VANA_files/4-3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Asap Condensed', sans-serif;
+    color: #2A3D62;
+}
+
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+.main {
+    height: 350px;
+    margin: 70px;
+    text-align: left;
+    text-indent: 15px;
+    line-height: 1.4;
+    padding: 20px;
+    background-color: rgba(254, 254, 254, 0.4);
+    border-radius: 40px;
+}
+
+.main img {
+    margin-left: 20px;
+    float: right;
+    width: 200px;
+    height: 265px;
+}
+
+center {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}

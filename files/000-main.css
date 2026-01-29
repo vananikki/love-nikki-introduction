@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.layer {
+    background-image: url("VANA_files/000-main.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s cubic-bezier(1, -0.99, 0.14, 1.8);
+    outline: solid 0px #fff;
+}
+
+    .layer:hover {
+        outline: solid 5rem #fff;
+        outline-offset: -5rem;
+    }

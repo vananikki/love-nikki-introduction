@@ -1,0 +1,58 @@
+html {
+    background: url(VANA_files/pp.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+img {
+    margin: 0 auto auto 0;
+    border: 0 auto auto 0;
+}
+
+h1 {
+    font-size: 80px;
+    margin: auto auto 80px;
+}
+
+h3 {
+    text-align: center;
+    color: #746bae;
+    font-size: 40px;
+    font-family: 'Bookman Old Style';
+}
+
+.h {
+    line-height: 2.3;
+    text-align: center;
+    color: #746bae;
+    font-size: 40px;
+    font-family: 'Bookman Old Style';
+    margin-bottom: 20px;
+}
+a.h:hover {
+    color: #5a5194;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#gif {
+    background: url("https://i.pinimg.com/originals/7a/3b/f8/7a3bf887f4ac9295fa82312a2d0a0cb5.gif") no-repeat scroll center bottom;
+    height: 350px;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}

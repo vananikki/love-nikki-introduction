@@ -1,0 +1,62 @@
+.position {
+    background-color: yellow;
+    padding: 40px;
+    padding-bottom: 0;
+    margin: 40px;
+    width: 320px;
+    height: 450px;
+    border: 2px solid red;
+    position
+}
+
+.P {
+    height: 50px;
+}
+
+.static {
+    position: static;
+    background-color: Chartreuse;
+    /**top left khong anh huong den element
+  voi position la static**/
+    top: 100px;
+    left: 250px;
+}
+
+.relative {
+    position: relative;
+    background-color: orange;
+    /** top,left co anh huong den vi du top=100px
+  them margin cua position =20px va padding =40px
+  thi vi tri so voi canh ria =100+20+40 px**/
+    left: 100px;
+    top: 290px;
+}
+/**STATIC VA RELATIVE VAN NAM TRONG PHAM VI ANH 
+  HUONG CUA DONG CHAY CUA TRANG**/
+
+.absolute {
+    position: absolute;
+    background-color: violet;
+    top: 600px;
+    left: 0;
+    z-index: 1;
+}
+
+.fixed {
+    position: fixed;
+    background-color: Aqua;
+    bottom: 0;
+    left: 125px;
+}
+/**ABSOLUTE VA FIXED KHONG NAM TRONG DONG CHAY CUA
+TRANG, THOAT RA KHOI MAC DINH**/
+.sticky {
+    position: sticky;
+    background-color: red;
+    top: 0;
+}
+
+section {
+    background-color: black;
+    height: 1000px;
+}

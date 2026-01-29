@@ -1,0 +1,85 @@
+html {
+    background: url(VANA_files/1-bg.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #78605E;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+#none {
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+ul {
+    list-style-type:disclosure-open;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li {
+    margin: 20px 100px;
+    font-size: 30px;
+}
+
+.part1 {
+    margin: 30px auto 100px auto;
+}
+
+.part1, .part2 {
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+.paragraph2 {
+    text-indent: 30px;
+    height: 300px;
+    overflow: auto;
+}
+
+.part1 img {
+    float: right;
+    margin-right: 100px;
+    width: 220px;
+    height: 300px;
+    margin-left: 30px;
+    border: 5px ridge #903f13;
+    border-radius: 5px;
+
+}
+
+.part2 img {
+    float: right;
+    margin-right: 100px;
+    width: 220px;
+    height: 300px;
+    margin-left: 30px;
+    border: 5px ridge #903f13;
+    border-radius: 5px;
+}
+
+ul a {
+    margin-left: 130px;
+}
+
+#nikki {
+    text-align: end;
+}

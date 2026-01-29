@@ -1,0 +1,50 @@
+html {
+    background: url(VANA_files/5-4.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Patrick Hand', cursive;
+    color: #553F3D;
+}
+
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+#next {
+    float: right;
+    margin: 0px;
+    margin-right: 0;
+    padding-top: 5px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255, 0.78);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #553F3D;
+    font-size: 15px;
+}
+
+    #next:hover {
+        background-color: rgba(254, 232, 199, 0.78);
+        color: #3b2c2b;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px;
+    font-size: 40px;
+}
+
+.quooo {
+    margin: 100px 160px 100px 225px;
+    font-size: 20px;
+}

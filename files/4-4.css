@@ -1,0 +1,36 @@
+html {
+    background: url(VANA_files/4-43.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Patrick Hand', cursive;
+    color: #645D60;
+}
+
+#logo {
+    position: fixed;
+    margin-top: 0;
+}
+
+#next {
+    float: right;
+    margin: 0px;
+    margin-right: 0;
+    padding-top: 10px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255, 0.78);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #4F47AB;
+    font-size: 20px;
+}
+
+    #next:hover {
+        background-color: rgba(204, 204, 204, 0.78);
+        color: #1F3169;
+        width: 200px;
+        height: 30px;
+        font-size: 18px;
+    }
